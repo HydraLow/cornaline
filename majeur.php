@@ -1,3 +1,8 @@
+<?php
+// Redirection automatique vers la page d'accueil
+header('Location: accueil.php');
+exit;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -17,7 +22,7 @@
   <h1>Bienvenue, vous êtes majeur !</h1>
   <p class="subtitle">Vous avez maintenant accès au contenu réservé aux adultes.</p>
 
-  <a href="index.php" class="button">Retour à l’accueil</a>
+  <a href="index.php" class="button">Retour à l'accueil</a>
 
   <footer>
     <a href="#">Plan du site</a>

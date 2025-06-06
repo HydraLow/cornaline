@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $age = $aujourdhui->diff($date_naissance)->y;
 
         if ($age >= 18) {
-            header('Location: majeur.php');
+            header('Location: accueil.php');
             exit;
         } else {
             $message = "<p class='error'>Désolé, vous devez avoir au moins 18 ans. Vous avez $age ans.</p>";
