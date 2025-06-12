@@ -35,7 +35,7 @@ CREATE TABLE `bieres` (
   `prix` decimal(5,2) NOT NULL DEFAULT '29.99',
   `description` text,
   `image_url` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `bieres`
@@ -62,7 +62,7 @@ CREATE TABLE `membres` (
   `role` varchar(50) NOT NULL,
   `description` text,
   `photo_url` varchar(255) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Déchargement des données de la table `membres`
