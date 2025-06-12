@@ -75,7 +75,7 @@ INSERT INTO `membres` (`id`, `nom`, `role`, `description`, `photo_url`) VALUES
 (4, 'COMBEAU Adam', 'MMI', 'Chef de projet des MMI, graphiste, monteur vidéo', NULL),
 (5, 'GRAZIANO Lauryn', 'MMI', 'Graphiste, chargé de communication', NULL),
 (6, 'MAINGUY Eloise', 'MMI', 'Graphiste, community manageur', NULL),
-(7, 'PEINY	Loic', 'MMI', 'Graphiste, monteur vidéo, développeur', NULL),
+(7, 'PEINY Loic', 'MMI', 'Graphiste, monteur vidéo, développeur', NULL),
 (8, 'THEBAULT Nathan', 'MMI', 'Graphiste, développeur', NULL);
 
 --
