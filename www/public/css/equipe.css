@@ -1,0 +1,109 @@
+.trombi-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trombi-title {
+    font-size: 2em;
+    margin: 1em;
+
+    color: #e3bf7d;
+}
+
+.trombi-section {
+    margin-bottom: 2em;
+}
+
+.trombi-groupe {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.trombi-grille {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.trombi-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trombi-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 0.5em;
+}
+
+.trombi-nom {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.trombi-presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.trombi-aside {
+    float: left;
+    margin-right: 1rem;
+}
+
+.trombi-aside figure {
+    width: 400px;
+    height: 100%;
+}
+
+.trombi-aside img {
+    height: 100%;
+    width: auto;
+    border-radius: 50%;
+}
+
+.trombi-presentation p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+footer {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+
+    .trombi-presentation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trombi-aside {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .trombi-aside figure {
+        width: 100%;
+        height: auto;
+    }
+
+    .trombi-aside img {
+        width: 100%;
+        height: auto;
+    }
+
+}

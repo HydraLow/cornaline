@@ -1,0 +1,86 @@
+.biereind-main {
+    padding: 20px;
+}
+
+.bieres-title {
+    color: #e3bf7d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.biereind-contenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.biereind-gauche,
+.biereind-droite {
+    width: 48%;
+}
+
+.biereind-carte {
+    padding: 10px;
+    text-align: center;
+}
+
+.biereind-carte img {
+    width: auto;
+    height: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.biereind-nom {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.biereind-prix {
+    color: #555;
+    margin-top: 10px;
+}
+
+.biereind-btn {
+    background-color: #e3bf7d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.biereind-btn:hover {
+    background-color: #cda95f;
+}
+
+.biereind-ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.biereind-ingredients li {
+    margin-bottom: 5px;
+}
+
+.biereind-desc p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer {
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+
+    .biereind-gauche,
+    .biereind-droite {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
