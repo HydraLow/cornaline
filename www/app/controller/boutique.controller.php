@@ -13,7 +13,6 @@ function generateBoutiquePage()
 
     $data = [
         "bieres" => getAllBieres(),
-        'active_route' => 'boutique',
         'css_file' => "../../../public/css/boutique.css",
         'page_title' => "Cornaline - Boutique",
         'view' => 'app/view/boutique.view.php',

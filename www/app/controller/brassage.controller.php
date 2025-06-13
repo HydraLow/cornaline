@@ -13,7 +13,6 @@ function generateBrassagePage()
     $genre = "Jazz";
 
     $data = [
-        'active_route' => 'brassage',
         "css_file" => "../../../public/css/brassage.css",
         'page_title' => "Cornaline - Brassage",
         'view' => 'app/view/brassage.view.php',

@@ -26,7 +26,6 @@ function generateAgePage()
     }
 
     $data = [
-        'active_route' => 'age-verification',
         'css_file' => "../../../public/css/age.css",
         'page_title' => "Cornaline - Vérification d'âge",
         'view' => 'app/view/age.view.php',
